@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #ccc;
+}
+#invader {
+  margin: 40px auto;
+  position: relative;
+}
+.select-model {
+  text-align: center;
+  padding: 10px;
+}
+.select-model-button {
+  padding: 10px;
+  border: 0;
+  background: black;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.square {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  color: transparent;
+}
+.square-dark {
+  background-color: black;
+}
+.square-light {
+  background-color: white;
+}
+.square-blue {
+  background-color: blue;
+}
+.square-red {
+  background-color: red;
+}
